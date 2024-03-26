@@ -1,0 +1,63 @@
+#container {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#sec1, #sec3{
+    border: 1px solid black;
+    height: 150px;
+    margin: 5px;
+} 
+
+body header div {
+    border: 1px solid black;
+    height: 50px;
+    background-color: pink;
+    width: 200px;
+
+
+}
+
+header {
+    display:flex;
+    height: 50px;
+    flex-basis: auto;
+    margin: 5px;
+    justify-content:space-evenly;
+}
+
+#sec1 {
+    background-color: yellow;
+}
+
+#main {
+    display: flex;
+   
+    height: 150px;
+    margin: 5px;
+}
+
+#sec3 {
+    background-color: blue;
+}
+
+
+#main div{
+    border: 2px soild black;
+    flex-basis: auto;
+
+}
+
+#div1 {
+    background-color: grey;
+    border: 3px soild black;
+    margin-right: 10px;
+    width: 20%;
+}
+
+#div2 {
+    background-color: mediumaquamarine;
+    border: 3px soild black;
+    margin-left: 10px;
+    width: 80%
+}
